@@ -6,6 +6,7 @@ public:
 	Integer(int);
 	int get();
 	void set(int);
+	void fib();
 private:
 	int val;
 };

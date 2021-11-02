@@ -2,25 +2,25 @@
 // Integer class 
 
 class Integer{
-	public:
-		Integer(int);
-		int get();
-		void set(int);
-	private:
-		int val;
-	};
+public:
+	Integer(int);
+	int get();
+	void set(int);
+private:
+	int val;
+};
  
 Integer::Integer(int n){
 	val = n;
-	}
+}
  
 int Integer::get(){
 	return val;
-	}
+}
  
 void Integer::set(int n){
 	val = n;
-	}
+}
 
 
 extern "C"{

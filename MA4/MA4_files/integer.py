@@ -20,7 +20,6 @@ class Integer(object):
 	def set(self, val):
 		lib.Integer_set(self.obj, val)
         
-	
 
 	def start_fib(self):
 		return lib.Integer_start_fib(self.obj)
